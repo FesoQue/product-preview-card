@@ -9,7 +9,7 @@ const App = () => {
     <div className='h-screen flex justify-center items-center '>
       <div className='bg-white rounded-lg overflow-hidden sm:flex max-w-[640px]'>
         {/* image card */}
-        <div className=' w-1/2'>
+        <div className='sm:w-1/2'>
           <img
             className='sm:hidden'
             src={product_image_mobile}
@@ -22,7 +22,7 @@ const App = () => {
           />
         </div>
         {/* content */}
-        <div className='p-5 w-1/2 sm:p-7'>
+        <div className='p-5 sm:w-1/2 sm:p-7'>
           <p className='mb-2 text-dark-grayish-blue tracking-[7px] sm:mb-6'>
             PERFUME
           </p>
